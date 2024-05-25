@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Rapport_immo_GRP3" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d2bfcd78-f4db-4965-badb-0e0742453879">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="MySQLConnection"/>
+	<subDataset name="Dataset1" uuid="b4cb18cf-25e2-4dab-a1d6-ccf208c5a5e8">
+		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="MySQLConnection"/>
+		<queryString language="SQL">
+			<![CDATA[SELECT * FROM dvf_stat_communes]]>
+		</queryString>
+		<field name="code_geo" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="code_geo"/>
+			<property name="com.jaspersoft.studio.field.label" value="code_geo"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+		</field>
+		<field name="libelle_geo" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="libelle_geo"/>
+			<property name="com.jaspersoft.studio.field.label" value="libelle_geo"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+		</field>
+		<field name="code_departement" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="code_departement"/>
+			<property name="com.jaspersoft.studio.field.label" value="code_departement"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+		</field>
+		<field name="echelle_geo" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="echelle_geo"/>
+			<property name="com.jaspersoft.studio.field.label" value="echelle_geo"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+		</field>
+		<field name="nb_ventes_whole_appartement" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="nb_ventes_whole_appartement"/>
+			<property name="com.jaspersoft.studio.field.label" value="nb_ventes_whole_appartement"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+		</field>
+		<field name="moy_prix_m2_whole_appartement" class="java.lang.Float">
+			<property name="com.jaspersoft.studio.field.name" value="moy_prix_m2_whole_appartement"/>
+			<property name="com.jaspersoft.studio.field.label" value="moy_prix_m2_whole_appartement"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+		</field>
+		<field name="med_prix_m2_whole_appartement" class="java.lang.Float">
+			<property name="com.jaspersoft.studio.field.name" value="med_prix_m2_whole_appartement"/>
+			<property name="com.jaspersoft.studio.field.label" value="med_prix_m2_whole_appartement"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+		</field>
+		<field name="nb_ventes_whole_maison" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="nb_ventes_whole_maison"/>
+			<property name="com.jaspersoft.studio.field.label" value="nb_ventes_whole_maison"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+		</field>
+		<field name="moy_prix_m2_whole_maison" class="java.lang.Float">
+			<property name="com.jaspersoft.studio.field.name" value="moy_prix_m2_whole_maison"/>
+			<property name="com.jaspersoft.studio.field.label" value="moy_prix_m2_whole_maison"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+		</field>
+		<field name="med_prix_m2_whole_maison" class="java.lang.Float">
+			<property name="com.jaspersoft.studio.field.name" value="med_prix_m2_whole_maison"/>
+			<property name="com.jaspersoft.studio.field.label" value="med_prix_m2_whole_maison"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+		</field>
+		<field name="nb_ventes_whole_apt_maison" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="nb_ventes_whole_apt_maison"/>
+			<property name="com.jaspersoft.studio.field.label" value="nb_ventes_whole_apt_maison"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+		</field>
+		<field name="moy_prix_m2_whole_apt_maison" class="java.lang.Float">
+			<property name="com.jaspersoft.studio.field.name" value="moy_prix_m2_whole_apt_maison"/>
+			<property name="com.jaspersoft.studio.field.label" value="moy_prix_m2_whole_apt_maison"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+		</field>
+		<field name="med_prix_m2_whole_apt_maison" class="java.lang.Float">
+			<property name="com.jaspersoft.studio.field.name" value="med_prix_m2_whole_apt_maison"/>
+			<property name="com.jaspersoft.studio.field.label" value="med_prix_m2_whole_apt_maison"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+		</field>
+		<field name="nb_ventes_whole_local" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="nb_ventes_whole_local"/>
+			<property name="com.jaspersoft.studio.field.label" value="nb_ventes_whole_local"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+		</field>
+		<field name="moy_prix_m2_whole_local" class="java.lang.Float">
+			<property name="com.jaspersoft.studio.field.name" value="moy_prix_m2_whole_local"/>
+			<property name="com.jaspersoft.studio.field.label" value="moy_prix_m2_whole_local"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+		</field>
+		<field name="med_prix_m2_whole_local" class="java.lang.Float">
+			<property name="com.jaspersoft.studio.field.name" value="med_prix_m2_whole_local"/>
+			<property name="com.jaspersoft.studio.field.label" value="med_prix_m2_whole_local"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+		</field>
+	</subDataset>
+	<subDataset name="Dataset2" uuid="f082bfa0-5a55-4aa4-ac17-4ec853fd34fd">
+		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="MySQLConnection"/>
+		<queryString language="SQL">
+			<![CDATA[select * FROM dvf_stat_departement]]>
+		</queryString>
+		<field name="code_geo" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="code_geo"/>
+			<property name="com.jaspersoft.studio.field.label" value="code_geo"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_departement"/>
+		</field>
+		<field name="libelle_geo" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="libelle_geo"/>
+			<property name="com.jaspersoft.studio.field.label" value="libelle_geo"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_departement"/>
+		</field>
+		<field name="echelle_geo" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="echelle_geo"/>
+			<property name="com.jaspersoft.studio.field.label" value="echelle_geo"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_departement"/>
+		</field>
+		<field name="nb_ventes_whole_appartement" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="nb_ventes_whole_appartement"/>
+			<property name="com.jaspersoft.studio.field.label" value="nb_ventes_whole_appartement"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_departement"/>
+		</field>
+		<field name="moy_prix_m2_whole_appartement" class="java.lang.Float">
+			<property name="com.jaspersoft.studio.field.name" value="moy_prix_m2_whole_appartement"/>
+			<property name="com.jaspersoft.studio.field.label" value="moy_prix_m2_whole_appartement"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_departement"/>
+		</field>
+		<field name="med_prix_m2_whole_appartement" class="java.lang.Float">
+			<property name="com.jaspersoft.studio.field.name" value="med_prix_m2_whole_appartement"/>
+			<property name="com.jaspersoft.studio.field.label" value="med_prix_m2_whole_appartement"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_departement"/>
+		</field>
+		<field name="nb_ventes_whole_maison" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="nb_ventes_whole_maison"/>
+			<property name="com.jaspersoft.studio.field.label" value="nb_ventes_whole_maison"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_departement"/>
+		</field>
+		<field name="moy_prix_m2_whole_maison" class="java.lang.Float">
+			<property name="com.jaspersoft.studio.field.name" value="moy_prix_m2_whole_maison"/>
+			<property name="com.jaspersoft.studio.field.label" value="moy_prix_m2_whole_maison"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_departement"/>
+		</field>
+		<field name="med_prix_m2_whole_maison" class="java.lang.Float">
+			<property name="com.jaspersoft.studio.field.name" value="med_prix_m2_whole_maison"/>
+			<property name="com.jaspersoft.studio.field.label" value="med_prix_m2_whole_maison"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_departement"/>
+		</field>
+		<field name="nb_ventes_whole_apt_maison" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="nb_ventes_whole_apt_maison"/>
+			<property name="com.jaspersoft.studio.field.label" value="nb_ventes_whole_apt_maison"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_departement"/>
+		</field>
+		<field name="moy_prix_m2_whole_apt_maison" class="java.lang.Float">
+			<property name="com.jaspersoft.studio.field.name" value="moy_prix_m2_whole_apt_maison"/>
+			<property name="com.jaspersoft.studio.field.label" value="moy_prix_m2_whole_apt_maison"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_departement"/>
+		</field>
+		<field name="med_prix_m2_whole_apt_maison" class="java.lang.Float">
+			<property name="com.jaspersoft.studio.field.name" value="med_prix_m2_whole_apt_maison"/>
+			<property name="com.jaspersoft.studio.field.label" value="med_prix_m2_whole_apt_maison"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_departement"/>
+		</field>
+		<field name="nb_ventes_whole_local" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="nb_ventes_whole_local"/>
+			<property name="com.jaspersoft.studio.field.label" value="nb_ventes_whole_local"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_departement"/>
+		</field>
+		<field name="moy_prix_m2_whole_local" class="java.lang.Float">
+			<property name="com.jaspersoft.studio.field.name" value="moy_prix_m2_whole_local"/>
+			<property name="com.jaspersoft.studio.field.label" value="moy_prix_m2_whole_local"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_departement"/>
+		</field>
+		<field name="med_prix_m2_whole_local" class="java.lang.Float">
+			<property name="com.jaspersoft.studio.field.name" value="med_prix_m2_whole_local"/>
+			<property name="com.jaspersoft.studio.field.label" value="med_prix_m2_whole_local"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_departement"/>
+		</field>
+	</subDataset>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM dvf_stat_communes]]>
+	</queryString>
+	<field name="code_geo" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="code_geo"/>
+		<property name="com.jaspersoft.studio.field.label" value="code_geo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+	</field>
+	<field name="libelle_geo" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="libelle_geo"/>
+		<property name="com.jaspersoft.studio.field.label" value="libelle_geo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+	</field>
+	<field name="code_departement" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="code_departement"/>
+		<property name="com.jaspersoft.studio.field.label" value="code_departement"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+	</field>
+	<field name="echelle_geo" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="echelle_geo"/>
+		<property name="com.jaspersoft.studio.field.label" value="echelle_geo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+	</field>
+	<field name="nb_ventes_whole_appartement" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="nb_ventes_whole_appartement"/>
+		<property name="com.jaspersoft.studio.field.label" value="nb_ventes_whole_appartement"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+	</field>
+	<field name="moy_prix_m2_whole_appartement" class="java.lang.Float">
+		<property name="com.jaspersoft.studio.field.name" value="moy_prix_m2_whole_appartement"/>
+		<property name="com.jaspersoft.studio.field.label" value="moy_prix_m2_whole_appartement"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+	</field>
+	<field name="med_prix_m2_whole_appartement" class="java.lang.Float">
+		<property name="com.jaspersoft.studio.field.name" value="med_prix_m2_whole_appartement"/>
+		<property name="com.jaspersoft.studio.field.label" value="med_prix_m2_whole_appartement"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+	</field>
+	<field name="nb_ventes_whole_maison" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="nb_ventes_whole_maison"/>
+		<property name="com.jaspersoft.studio.field.label" value="nb_ventes_whole_maison"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+	</field>
+	<field name="moy_prix_m2_whole_maison" class="java.lang.Float">
+		<property name="com.jaspersoft.studio.field.name" value="moy_prix_m2_whole_maison"/>
+		<property name="com.jaspersoft.studio.field.label" value="moy_prix_m2_whole_maison"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+	</field>
+	<field name="med_prix_m2_whole_maison" class="java.lang.Float">
+		<property name="com.jaspersoft.studio.field.name" value="med_prix_m2_whole_maison"/>
+		<property name="com.jaspersoft.studio.field.label" value="med_prix_m2_whole_maison"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+	</field>
+	<field name="nb_ventes_whole_apt_maison" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="nb_ventes_whole_apt_maison"/>
+		<property name="com.jaspersoft.studio.field.label" value="nb_ventes_whole_apt_maison"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+	</field>
+	<field name="moy_prix_m2_whole_apt_maison" class="java.lang.Float">
+		<property name="com.jaspersoft.studio.field.name" value="moy_prix_m2_whole_apt_maison"/>
+		<property name="com.jaspersoft.studio.field.label" value="moy_prix_m2_whole_apt_maison"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+	</field>
+	<field name="med_prix_m2_whole_apt_maison" class="java.lang.Float">
+		<property name="com.jaspersoft.studio.field.name" value="med_prix_m2_whole_apt_maison"/>
+		<property name="com.jaspersoft.studio.field.label" value="med_prix_m2_whole_apt_maison"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+	</field>
+	<field name="nb_ventes_whole_local" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="nb_ventes_whole_local"/>
+		<property name="com.jaspersoft.studio.field.label" value="nb_ventes_whole_local"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+	</field>
+	<field name="moy_prix_m2_whole_local" class="java.lang.Float">
+		<property name="com.jaspersoft.studio.field.name" value="moy_prix_m2_whole_local"/>
+		<property name="com.jaspersoft.studio.field.label" value="moy_prix_m2_whole_local"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+	</field>
+	<field name="med_prix_m2_whole_local" class="java.lang.Float">
+		<property name="com.jaspersoft.studio.field.name" value="med_prix_m2_whole_local"/>
+		<property name="com.jaspersoft.studio.field.label" value="med_prix_m2_whole_local"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="dvf_stat_communes"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="150" y="24" width="258" height="30" uuid="ec2954c6-0510-4376-8b83-d9b165d2627d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Analyse des rendements locatifs]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<textField evaluationTime="Report">
+				<reportElement x="229" y="12" width="100" height="30" uuid="900ca605-e518-4a15-9007-183088c28a5e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
