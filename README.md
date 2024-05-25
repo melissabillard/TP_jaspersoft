@@ -6,7 +6,7 @@ Projet Datavisualisation / Reporting
 ## Outil de reporting
 - [Jasper](https://www.jaspersoft.com/)
 
-![](/Images/img1.jpg)
+![](/images/img1.jpg)
 
 ## Groupe 3
 - BILLARD Mélissa
@@ -20,9 +20,27 @@ Ce projet de datavisualisation a pour objectif d'identifier les zones à fort re
 
 - [Prix immobilier et revenu dans les agglomérations françaises](https://www.igedd.developpement-durable.gouv.fr/prix-immobilier-et-revenu-dans-les-agglomerations-a1112.html)
 
-![](/Images/img2.png)
+![](/images/img2.png)
 
 ## Déploiement BDD
+
+### Pré-requis
+- [Wampserver](https://wampserver.aviatechno.net/)
+
+![](/images/img3.png)
+
+
+### Bibliothèques nécessaires
 ```
 pip install mysql-connector-python
+pip install pandas mysql-connector-python
+```
+### Fichiers
+- create_database.py 
+
+**Note :** Création de la base de donnée et des tables associées. 
+
+### Exécution
+```
+python create_database.py
 ```
