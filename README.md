@@ -59,3 +59,6 @@ Connecter le rapport Jasper à l'adaptateur de données MySQL.
   </div>
 </div>
 
+### Création des dataset
+
+<img src="/images/dataset.png">
