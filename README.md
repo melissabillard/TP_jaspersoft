@@ -27,7 +27,7 @@ Ce projet de datavisualisation a pour objectif d'identifier les zones à fort re
 ### Pré-requis
 - [Wampserver](https://wampserver.aviatechno.net/)
 
-![](/images/img3.png){: width="500" height="300"}
+![](/images/img3.png)
   
 ### Bibliothèques nécessaires
 ```
@@ -38,6 +38,8 @@ pip install pandas mysql-connector-python
 - create_database.py 
 
 **Note :** Création de la base de donnée et des tables associées. 
+
+![](/images/img4.png)
 
 ### Exécution
 ```
