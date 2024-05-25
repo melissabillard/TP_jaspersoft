@@ -59,7 +59,28 @@ table_schemas = {
             med_prix_m2_whole_apt_maison FLOAT,
             nb_ventes_whole_local INT,
             moy_prix_m2_whole_local FLOAT,
-            med_prix_m2_whole_local FLOAT
+            med_prix_m2_whole_local FLOAT,
+            `tx_chomage` FLOAT,
+            annee INT,
+            population_moins_25_ans INT,
+            evolution_2019_2013_25 FLOAT,
+            population_25_moins_de_50_ans INT,
+            evolution_2019_2013_25_50 FLOAT,
+            population_50_moins_65 INT,
+            evolution_2019_2013_50_65 FLOAT,
+            population_65_et_plus INT,
+            evolution_2019_2013_60_plus FLOAT,
+            population_totale INT,
+            evolution_population_totale FLOAT,
+            part_de_femme FLOAT,
+            part_dep_region FLOAT,
+            tx_de_natalite FLOAT,
+            tx_de_mortalite FLOAT,
+            esperance_de_vie_a_la_naissance_hommes FLOAT,
+            esperance_de_vie_a_la_naissance_femmes FLOAT,
+            revenu_median INT,
+            salaire_net_horaire_moyen_ensemble FLOAT,
+            tx_pauvrete_menage FLOAT
         )
     """
 }
