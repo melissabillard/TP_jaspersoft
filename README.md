@@ -6,7 +6,7 @@ Projet Datavisualisation / Reporting
 ## Outil de reporting
 - [Jasper](https://www.jaspersoft.com/)
 
-![](/images/img1.jpg)
+![](/Images/img1.jpg)
 
 ## Groupe 3
 - BILLARD Mélissa
