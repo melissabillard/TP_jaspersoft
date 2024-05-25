@@ -53,6 +53,6 @@ python create_database.py
 Connecter le rapport Jasper à l'adaptateur de données MySQL.
 
 <div style="display: flex; gap: 10px;">
-    <img src="/images/data-adapter-sql1.png" alt="Connexion dataset étape 1" width="200">
-    <img src="/images/data-adapter-sql2.png" alt="Connexion dataset étape 2 test" width="200">
+    <img src="/images/data-adapter-sql1.png" alt="Connexion dataset étape 1" width="400">
+    <img src="/images/data-adapter-sql2.png" alt="Connexion dataset étape 2 test" width="400">
 </div>
