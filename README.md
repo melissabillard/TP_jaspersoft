@@ -23,9 +23,7 @@ Ce projet de datavisualisation a pour objectif d'identifier les zones à fort re
 ## Déploiement BDD
 
 ### Pré-requis
-- [Wampserver](https://wampserver.aviatechno.net/)
-
-<img src="/images/img3.png" width="200">
+- [Wampserver](https://wampserver.aviatechno.net/) <img src="/images/img3.png" width="150">
   
 ### Bibliothèques nécessaires
 ```
