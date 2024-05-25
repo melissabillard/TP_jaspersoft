@@ -35,11 +35,13 @@ pip install mysql-connector-python
 pip install pandas mysql-connector-python
 ```
 ### Fichiers
+
+<img src="/images/img4.png" width="200">
+
 - create_database.py 
 
 **Note :** Création de la base de donnée et des tables associées. 
 
-<img src="/images/img4.png" width="200">
 
 ### Exécution
 ```
