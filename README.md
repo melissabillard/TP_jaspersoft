@@ -1,6 +1,8 @@
 # Datavisualisation
 Projet Datavisualisation / Reporting
 
+**Intervenant :** Benoit Gérald
+
 ## Outil de reporting
 - [Jasper](https://www.jaspersoft.com/)
 
