@@ -48,10 +48,6 @@ python create_database.py
 ```
 <img src="/images/bdd.png">
 
-<<<<<<< HEAD
 ### Rapport Jasper
-=======
-## Rapport Jasper
->>>>>>> 2fa20640348e8ca57e4e74ce2917f48229ef98ce
 
 ### Connexion du dataset
