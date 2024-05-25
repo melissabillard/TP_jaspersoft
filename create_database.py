@@ -12,6 +12,9 @@ config = {
     'database': 'immojasper'
 }
 
+# Nom de la base de données
+database_name = 'immojasper'
+
 # Fichiers CSV
 csv_files = {
     'dvf_stat_communes': './data/dvf_stat_communes.csv',
@@ -63,8 +66,22 @@ table_schemas = {
 
 # Connexion au serveur MySQL
 try:
-    cnx = mysql.connector.connect(**config)
+    cnx = mysql.connector.connect(
+        user=config['user'], 
+        password=config['password'],
+        host=config['host'],
+        port=config['port']
+    )
     cursor = cnx.cursor()
+
+    # Supprimer la base de données si elle existe
+    cursor.execute(f"DROP DATABASE IF EXISTS {database_name}")
+    
+    # Créer la base de données
+    cursor.execute(f"CREATE DATABASE {database_name}")
+    
+    # Utiliser la nouvelle base de données
+    cursor.execute(f"USE {database_name}")
 
     # Supprimer les tables si elles existent
     for table in table_schemas.keys():
@@ -94,5 +111,7 @@ except mysql.connector.Error as err:
     else:
         print(err)
 finally:
-    cursor.close()
-    cnx.close()
+    if 'cursor' in locals() and cursor is not None:
+        cursor.close()
+    if 'cnx' in locals() and cnx is not None:
+        cnx.close()
