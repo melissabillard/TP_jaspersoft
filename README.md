@@ -27,7 +27,7 @@ Ce projet de datavisualisation a pour objectif d'identifier les zones à fort re
 ### Pré-requis
 - [Wampserver](https://wampserver.aviatechno.net/)
 
-![](/images/img3.png =100x20)
+![](/images/img3.png){: width="500" height="300"}
   
 ### Bibliothèques nécessaires
 ```
