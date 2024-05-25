@@ -1,6 +1,7 @@
 import mysql.connector
 from mysql.connector import errorcode
 import pandas as pd
+import numpy as np
 
 # Informations de connexion à la base de données
 config = {
@@ -76,6 +77,8 @@ try:
     # Charger les données des fichiers CSV dans les tables
     for table, csv_file in csv_files.items():
         df = pd.read_csv(csv_file, delimiter=';')
+        df = df.replace({np.nan: None})  # Remplacer les NaN par None
+
         for i, row in df.iterrows():
             sql = f"INSERT INTO {table} VALUES ({', '.join(['%s'] * len(row))})"
             cursor.execute(sql, tuple(row))

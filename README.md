@@ -42,8 +42,8 @@ pip install pandas mysql-connector-python
 
 **Note :** Création de la base de donnée et des tables associées. 
 
-
 ### Exécution
 ```
 python create_database.py
 ```
+<img src="/images/bdd.png">
