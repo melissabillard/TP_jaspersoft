@@ -25,11 +25,8 @@ Ce projet de datavisualisation a pour objectif d'identifier les zones à fort re
 ## Déploiement BDD
 
 ### Pré-requis
-- [Wampserver](https://wampserver.aviatechno.net/)
-
-![](/images/img3.png)
-
-
+- [Wampserver](https://wampserver.aviatechno.net/) ![](/images/img3.png)
+  
 ### Bibliothèques nécessaires
 ```
 pip install mysql-connector-python
