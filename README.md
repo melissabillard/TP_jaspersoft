@@ -16,11 +16,9 @@ Projet Datavisualisation / Reporting
 ## Description
 Ce projet de datavisualisation a pour objectif d'identifier les zones à fort rendement locatif en Occitanie dans le secteur immobilier, en utilisant des graphiques et des tableaux pour présenter de manière claire et professionnelle les données collectées.
 
-## Sources de données
+## Sources de données <img src="/images/img2.png" width="80">
 
 - [Prix immobilier et revenu dans les agglomérations françaises](https://www.igedd.developpement-durable.gouv.fr/prix-immobilier-et-revenu-dans-les-agglomerations-a1112.html)
-
-<img src="/images/img2.png" width="300">
 
 ## Déploiement BDD
 
