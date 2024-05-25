@@ -13,7 +13,8 @@ Projet Datavisualisation / Reporting
 - BRACCIALE-COMBAS Lola
 - CARRILHO LAMEIRA Rita
 
-## Objectif
+## Description
+Ce projet de datavisualisation a pour objectif d'identifier les zones à fort rendement locatif en Occitanie dans le secteur immobilier, en utilisant des graphiques et des tableaux pour présenter de manière claire et professionnelle les données collectées.
 
 ## Sources de données
 
