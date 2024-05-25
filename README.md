@@ -22,3 +22,7 @@ Ce projet de datavisualisation a pour objectif d'identifier les zones à fort re
 
 ![](/Images/img2.png)
 
+## Déploiement BDD
+```
+pip install mysql-connector-python
+```
