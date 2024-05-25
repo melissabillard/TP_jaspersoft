@@ -20,14 +20,12 @@ Ce projet de datavisualisation a pour objectif d'identifier les zones à fort re
 
 - [Prix immobilier et revenu dans les agglomérations françaises](https://www.igedd.developpement-durable.gouv.fr/prix-immobilier-et-revenu-dans-les-agglomerations-a1112.html)
 
-![](/images/img2.png)
+<img src="/images/img2.png" width="300">
 
 ## Déploiement BDD
 
 ### Pré-requis
 - [Wampserver](https://wampserver.aviatechno.net/)
-
-![](/images/img3.png)
 
 <img src="/images/img3.png" width="200">
   
@@ -41,7 +39,7 @@ pip install pandas mysql-connector-python
 
 **Note :** Création de la base de donnée et des tables associées. 
 
-![](/images/img4.png)
+<img src="/images/img4.png" width="300">
 
 ### Exécution
 ```
