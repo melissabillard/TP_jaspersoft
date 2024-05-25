@@ -49,7 +49,7 @@ python create_database.py
 
 ### Rapport Jasper
 
-### Connexion du dataset
+### Création du data adapter
 Connecter le rapport Jasper à l'adaptateur de données MySQL.
 
 <div style="display: flex; justify-content: center; align-items: center;">
@@ -59,6 +59,6 @@ Connecter le rapport Jasper à l'adaptateur de données MySQL.
   </div>
 </div>
 
-### Création des dataset
+### Connexion des dataset
 
 <img src="/images/dataset.png">
